@@ -166,5 +166,5 @@ int main()
     // auto LS_solver2 = std::make_unique<numcpp::MinRes>(std::vector<FP>(), 1000000, 0.000001, nullptr, std::vector<FP>());
     // test_task(m2, n2, std::move(LS_solver2));
 
-    test_Chebyshev(1024,1024);
+    test_Chebyshev(200,200);
 }
